@@ -1,5 +1,9 @@
-body {
-  text-align: center;
+*{
 padding: auto;
 margin: auto;
+}
+
+.Apps {
+  background-color: black;
+  color: white;
 }

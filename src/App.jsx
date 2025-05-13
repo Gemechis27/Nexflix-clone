@@ -1,10 +1,16 @@
 import React from 'react'
 
+import "./App.css"
+import Header from './Components/Header/Header'
+
+import Footer from './Components/Footer/Footer'
+
 function App() {
   return (
-    <>
-      the rhere this first commit
-    </>
+    <div className='apps'>
+     <Header/>
+     <Footer/>
+    </div>
   )
 }
 

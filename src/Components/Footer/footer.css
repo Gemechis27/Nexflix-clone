@@ -1,0 +1,56 @@
+.Footer_outer_container {
+    background-color: #111;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.Footer_inner_container{
+    width: 60%;
+}
+.FooterIcons{
+    width: 12%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    color: #fff;
+}
+.FooterIcons ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 12vh;
+   gap: 6px;
+   cursor: pointer;
+
+}
+
+
+.Footer_data {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Footer_help{
+    display: flex;
+    justify-content: space-between;
+}
+.Footer_data ul{
+ list-style: none;
+
+}
+.service_code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: #fff 1px solid;
+    width: 14%;
+    margin: 10px;
+    cursor: pointer;
+
+}
+.copy_write{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
