@@ -1,7 +1,7 @@
 const API_KEY = import.meta.env.VITE_API_KEY;
 
 
-console.log("TMDB API Key:", API_KEY); // 🔍 Optional: verify key loads
+// console.log("TMDB API Key:", API_KEY); // 🔍 Optional: verify key loads
 
 const Requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
@@ -12,6 +12,8 @@ const Requests = {
   fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
   fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
   fetchTVShows: `/discover/tv?api_key=${API_KEY}&with_genres=10765`,
+  fetchAnimationMovies: `/discover/movie?api_key=${API_KEY}&with_genres=16`,
+
 };
 
 export default Requests;
