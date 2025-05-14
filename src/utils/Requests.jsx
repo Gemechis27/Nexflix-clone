@@ -1,9 +1,9 @@
-const API_KEY=process.env.REACT_API_KEY;
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 
+console.log("TMDB API Key:", API_KEY); // 🔍 Optional: verify key loads
 
-
-const requests = {
+const Requests = {
   fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
   fetchTopRatedMovies: `/movie/top_rated?api_key=${API_KEY}&language=en-US&page=1`,
   fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
@@ -11,8 +11,8 @@ const requests = {
   fetchHorrorMovies: `/discover/movie?api_key=${API_KEY}&with_genres=27`,
   fetchRomanceMovies: `/discover/movie?api_key=${API_KEY}&with_genres=10749`,
   fetchDocumentaries: `/discover/movie?api_key=${API_KEY}&with_genres=99`,
-  fetchTVShows: `/discover/tv?api_key=${API_KEY}&with_genres=10765`, 
-  // Use 10765 for Sci-Fi/Fantasy or 35 for Comedy TV
+  fetchTVShows: `/discover/tv?api_key=${API_KEY}&with_genres=10765`,
 };
 
-export default requests;
+export default Requests;
+
