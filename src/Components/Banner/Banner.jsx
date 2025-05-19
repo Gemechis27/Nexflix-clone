@@ -50,7 +50,7 @@ const Banner = () => {
         </h1>
       </div>
 
-      <div className='banner_fadeBotton' />
+     
     </div>
   );
 };

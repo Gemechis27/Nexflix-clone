@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './row.css';
 import axios from '../../../utils/axios';
-// import YouTube from 'react-youtube';
+import YouTube from 'react-youtube';
 import movieTrailer from 'movie-trailer';
 
 const Roow = ({ title, fetchUrl, islargeRow }) => {
@@ -30,7 +30,7 @@ const Roow = ({ title, fetchUrl, islargeRow }) => {
       movieTrailer(movie?.name || movie?.title || movie?.original_name)
         .then((url) => {
           console.log(url);
-          // Fixed: typo in URLSearchParams
+          
           const urlParams = new URLSearchParams(new URL(url).search);
           console.log(urlParams.get('v'));
           setTrailerUrl(urlParams.get('v'));
