@@ -1,59 +1,99 @@
-.banner{
-    margin-top: 10vh;
-    height: 80vh;
-    margin-bottom: 80px;
-    color: white;
-    object-fit: contain;
+.banner {
+  margin-top: 10vh;
+  height: 80vh;
+  margin-bottom: 80px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
 }
+
 .banner_container {
-    margin-left: 30px;
-    padding-top: 300px;
-
+  margin-left: 30px;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; /* left align text/buttons */
+  height: 60vh;
 }
-.Banner_title{
-    font-size: 3rem;
-    font-weight: 800;
-    padding-bottom: 0.3rem;
 
+.Banner_title {
+  font-size: 3rem;
+  font-weight: 800;
+  padding-bottom: 0.3rem;
+  margin: 0;
 }
-.banner_description{
-    width: 45rem;
-    line-height: 1;
-    padding: 0 0;
+
+.banner_description {
+  font-size: 1rem;
+  max-width: 360px;
+  line-height: 1.4;
+  margin-top: 1rem;
+  height: auto;
+}
+
+.banner_buttons {
+  margin-top: 1.5rem;
+}
+
+.banner_button {
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding: 1rem 3rem;
+  margin-right: 1rem;
+  background-color: rgba(5, 5, 5, 0.5);
+  transition: background-color 0.3s ease;
+}
+
+.banner_button.play {
+  color: #000;
+  background-color: #fff;
+}
+
+.banner_button:hover {
+  color: #000;
+  background-color: #c6c6c6;
+}
+
+.banner_fadeBotton {
+  height: 30vh;
+  /* Gradient removed per your request */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .banner_container {
+    max-width: 90%;
+    margin-left: 15px;
+    height: auto;
+  }
+
+  .Banner_title {
+    font-size: 2rem;
+  }
+
+  .banner_description {
+    max-width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .banner_buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .banner_button {
+    padding: 0.8rem 2rem;
     font-size: 1rem;
-    max-width: 360px;
-    height: 80px;
+    margin-right: 0;
+  }
 }
-.banner_button{
-    cursor: pointer;
-    color: #fff;
-    outline: none;
-    border: none;
-    font-size: 1.2rem;
-    font-weight: 700;
-    border-radius: 0.2vw;
-    padding: 1rem 3rem;
-    margin-right: 2rem;
-    background-color: rgba(5,5,5,0.5);
-
-}
-.play{
-    color: #000;
-    background-color: #fff;
-  
-}
- .banner_button:hover{
-color: #000;
-background-color: #c6c6c6;
-transition: all0.2s;
- }
-
- .banner_fadeBotton{
-    height: 40vh;
-    background-image: linear-gradient(
-        180deg,
-        transparent,
-        rgb (35,35,35,0.9),
-        #111
-    );
- }
