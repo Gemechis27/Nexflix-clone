@@ -49,4 +49,4 @@ git push origin main
 
 ## 🌍 Live Demo
 
-👉 [Visit the Live Site](https://your-correct-vercel-link.vercel.app)
+👉 [Visit the Live Site](https://nexflix-clone-git-main-gemechis27s-projects.vercel.app/)
