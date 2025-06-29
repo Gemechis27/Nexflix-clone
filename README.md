@@ -25,8 +25,8 @@ git clone https://github.com/Gemechis27/Nexflix-clone.git
 cd Nexflix-clone
 npm install
 npm run dev
-🌍 Live Demo
-👉 https://nexflix-clone-git-main-gemechis27s-projects.vercel.app/
+
+
 
 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
@@ -45,3 +45,8 @@ Run these commands in your terminal:
 git add LICENSE README.md
 git commit -m "Add LICENSE and README"
 git push origin main
+
+
+## 🌍 Live Demo
+
+👉 [Visit the Live Site](https://your-correct-vercel-link.vercel.app)
