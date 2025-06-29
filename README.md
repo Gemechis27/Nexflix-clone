@@ -1,12 +1,47 @@
-# React + Vite
+# 🎬 Nexflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Netflix clone built using **React**, **Vite**, and **Material UI**, deployed on **Netlify**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse trending movies
+- Embedded trailers via YouTube API
+- Responsive design with MUI components
+- Axios for API calls
+- Modern UI with clean code structure
 
-## Expanding the ESLint configuration
+## 🛠 Built With
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Material UI](https://mui.com/)
+- [Movie Trailer API](https://www.npmjs.com/package/movie-trailer)
+- [React YouTube](https://www.npmjs.com/package/react-youtube)
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Gemechis27/Nexflix-clone.git
+cd Nexflix-clone
+npm install
+npm run dev
+🌍 Live Demo
+👉 https://nexflix-clone-git-main-gemechis27s-projects.vercel.app/
+
+📄 License
+This project is licensed under the MIT License — see the LICENSE file for details.
+
+yaml
+Copy
+Edit
+
+---
+
+## ✅ Step 3: Commit & Push to GitHub
+
+Run these commands in your terminal:
+
+```bash
+git add LICENSE README.md
+git commit -m "Add LICENSE and README"
+git push origin main
